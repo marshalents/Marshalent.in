@@ -11,6 +11,12 @@ header {
     padding: 20px;
     text-align: center;
 }
+.logo {
+    width: 150px;       /* size adjust kar sakte ho */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;  /* center align */
+}
 nav {
     background: #444;
     padding: 10px;
