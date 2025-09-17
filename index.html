@@ -54,19 +54,13 @@
     </section>
     <section id="newsletter">
   <h2>Subscribe to Our Newsletter</h2>
-  <form name="newsletter" method="POST" data-netlify="true">
-    <p>
-      <label>Your Name: <input type="text" name="name" required></label>
-    </p>
-    <p>
-      <label>Email: <input type="email" name="email" required></label>
-    </p>
-    <p>
-      <label>Phone: <input type="tel" name="phone"></label>
-    </p>
-    <p>
-      <button type="submit">Subscribe</button>
-    </p>
+  <form name="subscribe" method="POST" data-netlify="true" action="/thankyou.html">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <input type="text" name="phone" placeholder="Your Phone" required>
+  <button type="submit">Subscribe</button>
+</form>
+
   </form>
 </section>
 
