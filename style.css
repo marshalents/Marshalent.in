@@ -10,11 +10,6 @@ body {
 
 /* Header */
 header {
-    text-align: center;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-header {
     position: relative;
     text-align: center;
     padding: 50px 20px;
@@ -36,6 +31,7 @@ header h1, header p, header img {
     position: relative;
     z-index: 2; /* text aur logo upar dikhe */
 }
+
 .logo {
     width: 150px;
     height: auto;
@@ -76,6 +72,22 @@ section {
     background-color: white;
 }
 
+/* Products Grid */
+.products-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
 /* Buttons */
 button {
     background-color: #4CAF50;
@@ -107,4 +119,16 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #f4f4f4;
+}
+
+/* Social Media Icons */
+.social-links a {
+    font-size: 30px;
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #007BFF;
 }
